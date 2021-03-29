@@ -24,6 +24,7 @@ function imgCopies(){
         productImage = '<img src="https://www.craftmaestros.com/pub/media/webp_image/wysiwyg/3.webp">';
         document.write(productImage);
     }else{
+        document.write('<h3>' + 'Copy #' + (i+1) + '</h3>');
         productImage = '<img src=https://www.picklee.com/wp-content/uploads/2018/04/beautiful-homemade-craft-ideas.jpeg">';
         document.write(productImage);
     }
